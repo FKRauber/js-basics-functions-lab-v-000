@@ -1,8 +1,11 @@
 // Code your solution in this file!
 
 function distanceFromHqInBlocks(block) {
-  let distance = block - 42;
-  return distance;
+  if (block > 42) {
+    return block - 42;
+  } else {
+    return 42 - block;
+  }
 }
 
 function distanceFromHqInFeet() {
